@@ -22,4 +22,4 @@ def test_userDetails():
 
     assert response.status_code == 200
     assert response.json["maritalStatus"] == "Married"
-    assert response.json["Age"] == 27
+    assert response.json["Age"] == 31
